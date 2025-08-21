@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Recipients() {
+export default function Contacts() {
   return null;
 }

@@ -1,0 +1,48 @@
+/* Component styles for the Contact detail page */
+:root{
+  --bg: #ffffff;
+  --muted: #6b7280;
+  --border: rgba(0,0,0,0.06);
+  --card-shadow: 0 6px 20px rgba(16,24,40,0.06);
+  --radius: 10px;
+}
+
+.page{
+  padding: 1.25rem;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:1rem;
+}
+
+.title{
+  margin:0;
+  font-size:1.25rem;
+  font-weight:700;
+}
+
+.backLink{
+  text-decoration:none;
+  color:var(--muted);
+}
+
+.card{
+  background:#fff;
+  border:1px solid var(--border);
+  padding:1rem;
+  border-radius:var(--radius);
+  box-shadow:var(--card-shadow);
+}
+
+.row{
+  display:flex;
+  gap:0.5rem;
+  margin-bottom:0.6rem;
+}
+
+.label{
+  font-weight:600;
+}

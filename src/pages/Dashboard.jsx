@@ -14,19 +14,12 @@ export default function Dashboard() {
         {/* Replace with a Table or list component */}
       </section>
 
-      <section className="dashboard-section quick-add">
-        <h2>Quick Add Gift</h2>
-        <form className="quick-add-form" onSubmit={(e) => e.preventDefault()}>
-          <input name="recipient" placeholder="Recipient name" />
-          <input name="gift" placeholder="Gift" />
-          <button type="submit">Add</button>
-        </form>
-      </section>
+      {/* Quick Add removed per request */}
 
       <section className="dashboard-section contacts">
         <h2>Contacts</h2>
         <p>Contact list and edit links go here.</p>
-        {/* Link to /recipients or an inline editor */}
+        {/* Link to /contacts or an inline editor */}
       </section>
     </div>
   );
